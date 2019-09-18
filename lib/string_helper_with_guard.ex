@@ -4,4 +4,8 @@ defmodule StringHelperWithGuard do
   end
 
   def palindrome?(_term), do: { :error, :unsupported_type }
+
+  def say_greeting(who \\ "world") do
+    "Hello #{who}!"
+  end
 end

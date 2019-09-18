@@ -1,6 +1,6 @@
 # Simple
 
-**TODO: Add description**
+Simple example code for my journey into Elixir language
 
 ## Installation
 

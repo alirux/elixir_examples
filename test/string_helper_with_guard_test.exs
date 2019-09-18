@@ -13,4 +13,13 @@ defmodule StringHelperWithGuardTest do
   test "with a number" do
     assert StringHelperWithGuard.palindrome?(100) == { :error, :unsupported_type }
   end
+
+  test "Greetings with no argument" do
+    assert StringHelperWithGuard.say_greeting() == "Hello world!"
+  end
+
+  test "Greetings to Anna" do
+    assert StringHelperWithGuard.say_greeting("Anna") == "Hello Anna!"
+  end
+
 end
